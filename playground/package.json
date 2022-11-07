@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "play:dev": "nodemon -w '../src/**/*.ts' -e .ts -x vite",
+    "play:build": "nodemon -w '../src/**/*.ts' -w './lib' -e ts,vue -x vite build",
+    "play": "run-p play:*"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "element-plus": "^2.2.20",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.8.4",
+    "unplugin-auto-import": "^0.11.4",
+    "unplugin-vue-components": "^0.22.9",
+    "vite": "^3.1.4",
+    "vite-plugin-inspect": "^0.7.4",
+    "vue": "^3.2.41",
+    "vue-tsc": "^1.0.9"
+  }
+}
