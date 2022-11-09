@@ -7,6 +7,6 @@ declare module '*.vue' {
 }
 
 
-declare module 'virtual:generated-styles' {
+declare module 'virtual:unplugin-web-components' {
   export const styles: string[]
 }

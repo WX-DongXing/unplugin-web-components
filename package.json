@@ -85,10 +85,13 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@rollup/pluginutils": "^5.0.2",
+    "css-tree": "^2.2.1",
     "unplugin": "^0.9.6"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.27.0",
+    "@types/css-tree": "^2.0.0",
     "@types/node": "^18.8.0",
     "bumpp": "^8.2.1",
     "chalk": "^5.0.1",
