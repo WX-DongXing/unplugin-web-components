@@ -3,15 +3,15 @@
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@7.1.1",
-  "description": "Generate web components for Vite",
+  "description": "Building vue3 components to webComponents on vite",
   "license": "MIT",
-  "homepage": "https://github.com/antfu/unplugin-starter#readme",
+  "homepage": "https://github.com/WX-DongXing/unplugin-web-components#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antfu/unplugin-starter.git"
+    "url": "git+https://github.com/WX-DongXing/unplugin-web-components.git"
   },
   "bugs": {
-    "url": "https://github.com/antfu/unplugin-starter/issues"
+    "url": "https://github.com/WX-DongXing/unplugin-web-components/issues"
   },
   "keywords": [
     "unplugin",
